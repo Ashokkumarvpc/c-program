@@ -1,20 +1,25 @@
 #include <stdio.h>
 #include<string.h>
 int main() {
-	int a;
+	int a,d;
 	int b[10];
-	int v=0;
+	int v=99999999;
 	scanf("%d",&a);
-	
+	printf("%da=\n",a);
+	scanf("%d",&d);
+	printf("%dd=\n",d);
+	for(int g=0;g<d;g++)
+	{
 	for(int i=0;i<a;i++)
 	{
 	   scanf("%d",&b[i]);
 	}
 	for(int j=0;j<a;j++)
 	{
-	 if(b[j]>v)
+	 if(b[j]<v)
 	 v=b[j];
 	}
-	printf("%d",v);
-	return 0;
+	printf("%d\n",v);
+	}
+
 }
