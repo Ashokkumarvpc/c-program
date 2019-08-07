@@ -1,0 +1,51 @@
+#include <stdio.h>
+
+int main() {
+    float a;
+    int q=0;
+    
+    scanf("%f",&a);
+    while(1)
+    {
+        a=a/2;
+        if(a==0)
+        {
+            q=1;
+            break;
+        }
+        
+    }
+    if(q)
+    printf("valid");
+    else
+    printf("invalid");#include <stdio.h>
+
+int main() {
+    float a;
+    int q=0;
+    
+    scanf("%f",&a);
+    while(1)
+    {
+        a=a/2;
+        if(a==0)
+        {
+            q=1;
+            break;
+        }
+        
+    }
+    if(q)
+    printf("valid");
+    else
+    printf("invalid");
+    
+    
+    
+	return 0;
+}
+    
+    
+    
+	return 0;
+}
