@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main() {
+    int b;
+    scanf("%d",&b);
+    switch(b)
+    {
+        case 1:printf("jan has 31");
+        break;
+        case 2:printf("jfeb has 28");
+        break;
+        case 3:printf("mar has 31");
+        break;
+        case 4:printf("apr has 30");
+        break;
+        case 5:printf("may has 31");break;
+        case 6:printf("jun has 30");break;
+        case 7:printf("jul has 31");break;
+        case 8:printf("aug has 31");break;
+        case 9:printf("sep has 30");break;
+        case 10:printf("oct has 31");break;
+        case 11:printf("nov has 30");break;
+        case 12:printf("dec has 31");break;
+    }
+	return 0;
+}
