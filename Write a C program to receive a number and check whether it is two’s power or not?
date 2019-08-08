@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+int main() {
+    float a;
+    int q=0;
+    
+    scanf("%f",&a);
+    while(1)
+    {
+        a=a/2;
+        if(a==1)
+        {
+            q=1;
+            break;
+        }
+        else if(a<1){
+            q=0;
+             break;
+        }
+       
+        
+    }
+    if(q)
+    printf("valid");
+    else
+    printf("invalid");
+    
+    
+    
+	return 0;
+}
