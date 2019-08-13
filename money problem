@@ -1,0 +1,34 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    int a,q,w,e;
+    scanf("%d",&a);
+    //printf("%d",a);
+    if(a%2000==0 || a%1000==0 || a%500==0 || a%100==0)
+    {
+    q=a/2000;
+    a=a%2000;
+    
+    printf("[%d,",q);
+    
+    q=a/1000;
+    a=a%1000;
+    printf("%d,",q);
+    
+    q=a/500;
+    a=a%500;
+    printf("%d,",q);
+    
+    q=a/100;
+    a=a%100;
+    printf("%d]",q);
+    }
+    else
+    printf("[-1,-1,-1,-1]");
+        
+    
+    return 0;
+}
